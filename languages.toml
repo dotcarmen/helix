@@ -700,7 +700,7 @@ source = { git = "https://github.com/Joakker/tree-sitter-json5", rev = "248b8564
 name = "c"
 scope = "source.c"
 injection-regex = "c"
-file-types = ["c"] # TODO: ["h"]
+file-types = ["c", "m"] # TODO: ["h"]
 comment-token = "//"
 block-comment-tokens = { start = "/*", end = "*/" }
 language-servers = [ "clangd" ]
@@ -3541,7 +3541,8 @@ source = { git = "https://github.com/monaqa/tree-sitter-mermaid", rev = "d787c66
 [[language]]
 name = "matlab"
 scope = "source.m"
-file-types = ["m"]
+file-types = []
+# file-types = ["m"]
 comment-token = "%"
 shebangs = ["octave-cli", "matlab"]
 indent = { tab-width = 2, unit = "  " }

@@ -97,6 +97,7 @@
 "ui.virtual.indent-guide" = "surface0"
 "ui.virtual.inlay-hint" = { fg = "surface1", bg = "mantle" }
 "ui.virtual.jump-label" = { fg = "rosewater", modifiers = ["bold"] }
+"ui.virtual.whitespace" = { fg = "surface1" }
 
 "ui.selection" = { bg = "surface1" }
 
